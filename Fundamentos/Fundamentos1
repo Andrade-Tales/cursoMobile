@@ -1,0 +1,79 @@
+//FUNDAMENTOS I
+
+fun main(){
+    //Comentário de uma única linha
+    /*
+     Este é
+     um comentário 
+     de múltiplas 
+     linhas
+     */
+    
+    //Variáveis
+    //Declarando uma variável mutável
+    var fruta = "pera"
+    //Alterando o seu valor
+    fruta = "abacaxi"
+    
+    //Declarando uma variável imutável
+    val tipoSanguineo = "O+"
+    
+    println(tipoSanguineo)
+}
+
+fun main(){
+   //Saída de dados
+   
+    //Escrever no console sem quebra de linha
+    //print("Olá,")
+    //print("Mundo")
+    
+    //Escrever no console com quebra de linha
+    println("Olá,")
+    println("Mundo")
+    
+    //Tipos de dados: Inteiro, Decimal, Caractere, Boolean, String
+    //Declarando um tipo explícito
+    val idade: Byte = 30
+    val peso: Float = 60.75f
+    val sexo: Char = 'F'
+    val genero: String = "masculino"
+    val souCasado: Boolean = true
+    
+    //Inferência de Tipos
+    val idadeKaory = 30 //Int
+    val pesoKaory = 60.75 //Double
+    val sexoKaory = 'F' //Char
+    val fraseRaul = "O Raul se acha lindo"  //String
+    val raulCasado = true  //Boolean
+ }
+
+ fun main(){
+    //Concatenação
+    val nome = "Kaory"
+    val idade = 30
+    
+    //Meu nome é Kaory e minha idade é 30
+    println("Meu nome é " + nome + " e minha idade é " + idade)
+    
+    //Tremplate String ou Interpolação
+    println("Meu nome é $nome e minha idade é $idade")
+ }
+
+ fun main(){
+    //Operadores Ariméticos
+    
+    /*
+     Adição +
+     Subtração -
+     Multiplicação *
+     Divisão /
+     Módulo (resto da divisão) %
+     */
+    
+    val a = 5
+    val b = 20
+    
+    println(a + b)
+	println(a * (a / b) + a)
+ }

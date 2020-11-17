@@ -1,0 +1,103 @@
+fun main(args: Array<String>) {
+ 
+fun main(){
+    
+    // 1. Desenvolva um algoritmo que armazene seu nome em uma variável e imprima a mensagem "Olá, [nome]"
+    //  utilizando a Concatenação ou Template String
+    
+val nome = "Tales"
+    
+    println("Olá, " + nome)
+
+    fun main(){
+    
+    // 2. Desenvolva um algoritmo com duas variáveis do tipo Double e imprima a soma das mesmas
+    
+    val  a = 18.20
+    val  b = 4.55
+    
+    println("O resultado é " + (a + b))
+}
+
+fun main(){
+    
+    // 3. Desenvolva um algoritmo que imprima o valor ao quadrado de um número
+    
+    
+   val arrayDeQUadrados: IntArray = intArrayOf(0,1,4,9,16,25)
+   println("O quadrado de 3 é " + arrayDeQuadrados[3])
+
+
+}
+
+fun main(){
+    
+    // 4. Desenvolva um algoritmo que imprima o dobro de um número
+    
+    
+    val a = 15
+    val b = 2
+     
+
+    println("O dobro do valor " + a + " é " + (a * b))
+
+}
+
+fun main(){
+    
+    // 5. Desenvolva um algoritmo que utilize os operadores aritméticos e imprima o antecessor e o sucessor de um número
+
+    val a = 2
+    val b = 1
+  
+    
+    println("O valor é " + a + ", seu sucessor é " + (a + b) + ", enquanto seu antecessor é " + (a - b))
+}
+
+fun main(){
+    
+    // 6. Desenvolva um algoritmo que calcule e imprima o total de dias em 7 meses, considerando que cada mês tenha 30 dias
+
+	val dia = 30
+    val mes = 7
+    
+    println("O total de dias em meses é " + dia * mes)
+}
+
+fun main(){
+    
+    // 7. Desenvolva um algoritmo que calcule e imprima a média das cinco notas de um aluno
+
+    val nota1 = 6.5
+    val nota2 = 8.0
+    val nota3 = 4.5
+    val nota4 = 3.1
+    val nota5 = 6.4
+    
+    println("Sua média é " + (nota1 + nota2 + nota3 + nota4 + nota5) / 3)
+}
+
+fun main(){
+    
+    // 8. Desenvolva um algoritmo que converta metros para centímetros e imprima o resultado
+
+ val a = 5.00
+    val cm = a * 100
+    
+    println("Essa medida em cm é: " + cm)
+}
+
+fun main(){
+    
+    // 9. Desenvolva um algoritmo que calcule o desconto na venda de um produto
+
+    val valor = 400.00
+    val descontoA = 15
+    val descontoB = 10
+    val descontoC = 5
+    
+    println("Seu desconto é de: " + ((valor * descontoA)/100) + " R$" )
+    
+    
+}
+}

@@ -1,0 +1,81 @@
+fun main(){
+   
+    // 1. Crie funções para as 4 operações aritméticas básicas
+    
+    fun somar(valor1: Int, valor2: Int): Int {
+	return valor1 + valor2
+        
+      
+}
+   println(somar(5, 3))
+   
+    fun subtrair(valor1: Int, valor2: Int): Int {
+	return valor1 - valor2
+        
+        
+}
+    println(subtrair(10, 3))
+    
+    fun multiplicar(valor1: Int, valor2: Int): Int {
+	return valor1 * valor2
+        
+        
+    }
+    
+    println(multiplicar(5, 3))
+    
+        fun dividir(valor1: Int, valor2: Int): Int {
+	return valor1 / valor2
+            
+        }
+        
+        println(dividir(5, 10))
+}
+
+fun main(){
+   
+    // 2. Utilizando a estrutura condicional, desenvolva um algoritmo que determine se uma pessoa é maior ou menor de idade
+
+	val idade = 24
+    if(idade >= 18) {
+        
+        println("Parabéns, você é maior de idade!")
+        
+    } else{
+        println("Infelizmente você não é maior de idade!")
+    }
+}
+
+fun main(){
+   
+    // 3. Utilizando a estrutura condicional e operadores relacionais, desenvolva um algoritmo que identifique 
+    // se um determinado número inteiro é par ou ímpar
+
+val  numero = 4
+      if((numero  % 2) == 0)  
+         System.out.println("Número Par")
+      else 
+         System.out.println("Número Impar")
+    
+}
+
+fun main(){
+   
+    // 4. Utilizando a estrutura condicional e operadores lógicos, desenvolva um algoritmo que simule um sistema de login
+
+val nome = "Tales Andrade"
+    val senha = "123456"
+    
+    if (nome == "Tales Andrade"){
+        
+        println("Login efetuado com sucesso!")
+        
+        
+            println("Bem-Vindo")
+        
+         } else {
+        
+        println("Erro! Digite as informações novamente ou cadastre-se")
+    }
+}
+

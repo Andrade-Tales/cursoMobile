@@ -1,0 +1,165 @@
+fun main(){
+    
+    // Função: Pequenos blocos de código reutilizáveis
+    
+    fun dizerOla(){
+        
+        println("Olá, Desenvolvedor Android!")
+    }
+    // Para executar uma função é preciso chama-la
+    dizerOla()
+}
+
+fun main(){
+    
+   fun somar(valor1:Int, valor2:Int):Int{
+       
+       return valor1 + valor2
+   }
+   
+   println(somar (2,5))
+}
+
+fun main(){
+    
+   /* OPERADORES DE IGUALDADE E RELACIONAIS
+    * == Igual a
+    * != Diferente de
+    * > Maior que
+    * < Menor que
+    * >= Maior ou igual
+    * <= Menor ou igual 
+    */
+    
+    
+    println("Macaco" == "macaco") // False
+    
+    println("macaco" == "macaco") // True
+    
+    println( 10 > 5) // True
+    
+    println(- 10 > 5) // False
+    
+    println( 5 > -10) // True
+    
+    println( 10 < 5) // False
+    
+    println( 7 >= - 7) // True
+    
+    println( 7 <= - 7) // False
+}
+
+fun main(){
+   
+    /*
+     * OPERADORES LÓGICOS
+     * && Operador AND (e)
+     * || Operador OR (ou)
+     * ! Operador NOT (não)
+ 	 */
+    
+    // TABELA DA VERDADE
+    /*
+    println( true && true) // True
+    println( true && false) // False
+    println( false && true) // False
+    println( false && false) // False
+    */
+    /*
+    println( true || true) // True
+    println( true || false) // True
+    println( false || true) // True
+    println( false || false) // False
+    */
+    
+    // OPERADORES LÓGICOS COMBINADOS COM RELACIONAIS
+   
+    println( 1>2 && 'a' == 'a') // False
+    println(10 != 1 && 5 <= 5) // True
+    println(5 == 1 || 10 < 11) // True
+    
+}
+
+
+fun main(){
+   
+    // ESTRUTURA CONDICIONAL: Permite ao programa tomar decisões 
+    
+   // val clima = "Chuva"
+    
+    // val clima = "Sol"
+    
+    val clima = "Neve"
+    
+    // If (se)
+    
+    if (clima == "Chuva") { // Verifica se a instrução é verdadeira (true)
+        
+        println("Leve um guarda-chuva!")
+        
+        else if (clima = "Sol"){ // Se não (else if)
+            
+            println("Ótimo dia para Praia!")
+        }
+        
+    } else { // Senão (else)
+        
+        println("Recomendo protetor solar!")
+    }
+}
+
+fun main(){
+   
+    // ESTRUTURA DE REPETIÇÃO: 
+    
+    // FOR significa: ("para" tal condição, repita tal  coisa)
+    
+   // for(vezes in 1..10) // Podemos definir início, fim e saltos
+    
+   // println("Bom dia!")
+    
+    for(vezes in 1 until 30 step 3) // SALTOS
+    
+    println(vezes)
+}
+
+fun main(){
+   
+    // CONTAGEM REGRESSIVA
+
+    for (vezes in 10 downTo 1) // downTo ("Contagem regressiva")
+    
+    println(vezes)
+}
+
+ListOf("Distrito Federal", "Paris", "Pequim", "Roma", "Buenos Aires")
+    
+    // Acessando elementos da lista pelo índice
+
+    println(capitais[0])
+    println(capitais[1])
+    println(capitais[2])
+    println(capitais[3])
+    println(capitais[4])
+    
+    // Obtendo o tamanho da lista
+
+    println(capitais.size) // .Size (obtem tamanhos)
+    
+    // Adicionando itens na lista
+
+    println(capitais.add("Buenos Aires"))
+    println(capitais.size)
+    println(capitais[4])
+    
+    // Remove intens da lista
+
+    capitais.removeAt(4)
+    
+    println(capitais)
+    
+    // Obtendo um elemento aleatório
+
+    println(capitais.random()) // .random "Sistema randomico" 
+}
+
