@@ -79,3 +79,75 @@ val nome = "Tales Andrade"
     }
 }
 
+fun main(){
+    
+    // 5. Desenvolva uma função que calcule o IMC de uma pessoa, imprimir o valor do IMC e sua classificação
+    
+   fun calcularIMC(peso: Double, altura: Double) {
+    
+    val imc = peso / (altura * altura)
+    
+    println("Seu imc é: $imc")
+    
+    if (imc < 18.5) {
+      println("Abaixo do peso")
+        
+    } else if (imc >= 18.5 && imc < 25.0) {
+        println("Peso Normal")
+        
+    } else {
+        println("Acima do peso")
+        
+    }
+}
+   calcularIMC(75.3, 1.87)
+
+calcularIMC(75.3, 1.6)
+}
+
+fun main(){
+    
+    // 6. Utilizando o loop de repetição for, desenvolva um algoritmo que imprima qualquer tabuada
+    
+    
+    val tabuada = 5
+    
+for (n in 0..10) {
+
+    println("$tabuada x $n = ${tabuada * n}")
+
+}
+}
+
+fun main(){
+    
+    // 7. Utilizando o loop de repetição for, desenvolva um algoritmo que conte a quantidade de vogais em uma String
+
+	var vogais = 0
+    
+for (letra in "paralelepípedo") {
+
+    if (letra == 'a' || letra == 'ã') {
+        vogais = vogais + 1
+
+    } else if (letra == 'e') {
+        vogais = vogais + 1
+
+    } else if (letra == 'i') {
+        vogais = vogais + 1
+
+    } else if (letra == 'o' || letra == 'ó') {
+        vogais = vogais + 1
+
+    } else if (letra == 'u' || letra == 'ú') {
+        vogais = vogais + 1
+
+    }
+
+}
+
+println("Total de vogais: $vogais")
+}
+
+
+
